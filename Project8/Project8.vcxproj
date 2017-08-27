@@ -19,15 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="InputFile.cpp" />
     <ClCompile Include="Main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="InputFile.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="Prueba.txt" />
-    <Text Include="Prueba2.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{105BD671-AF70-4D78-B0BB-2BD33EE62D13}</ProjectGuid>
