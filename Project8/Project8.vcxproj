@@ -18,6 +18,17 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="InputFile.cpp" />
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="InputFile.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Prueba.txt" />
+    <Text Include="Prueba2.txt" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{105BD671-AF70-4D78-B0BB-2BD33EE62D13}</ProjectGuid>
     <RootNamespace>Project8</RootNamespace>
@@ -117,17 +128,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="Circle.cpp" />
-    <ClCompile Include="Employee.cpp" />
-    <ClCompile Include="Main.cpp" />
-    <ClCompile Include="Rectangle.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Circle.h" />
-    <ClInclude Include="Employee.h" />
-    <ClInclude Include="Rectangle.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

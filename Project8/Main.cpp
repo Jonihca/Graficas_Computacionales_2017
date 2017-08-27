@@ -1,22 +1,20 @@
+/***********************************************
+Materia:	Gráficas Computacionales
+Fecha:		21 de Agosto del 2017
+Autor:		A01375843 Isaac Hinojosa Padilla
+************************************************/
+
 #include <iostream>
 
-#include "Circle.h"
-#include "Rectangle.h"
-#include "Employee.h"
-#include <fstream>
+#include "InputFile.h"
 
-int main()
+int main(int argc, char* argv[])
 {
-	std::cout << "Hello World Open GL" << std::endl;
-
-	Circle circulo(2.0, "green");
-	std::cout << circulo.GetRadius() << std::endl;
-
-	Rectangle rectangulo(10, 5);
-	std::cout << rectangulo.GetPerimeter() << std::endl;
-
-	Employee empleado(1375843, "Isaac", "Hinojosa Padilla", 50);
-	std::cout << empleado.GetAnnualSalary() << std::endl;
+	std::string filename = "Prueba.txt";   
+	InputFile myFile;   
+	myFile.Read(filename);   
+	std::string contents = myFile.GetContents();
+	std::cout << "Contents: " << contents << std::endl;
 
 	std::cin.get();
 

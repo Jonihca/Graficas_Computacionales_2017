@@ -15,13 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Circle.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Employee.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Rectangle.cpp">
+    <ClCompile Include="InputFile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Main.cpp">
@@ -29,14 +23,16 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Circle.h">
+    <ClInclude Include="InputFile.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="Employee.h">
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Prueba.txt">
       <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Rectangle.h">
+    </Text>
+    <Text Include="Prueba2.txt">
       <Filter>Source Files</Filter>
-    </ClInclude>
+    </Text>
   </ItemGroup>
 </Project>
